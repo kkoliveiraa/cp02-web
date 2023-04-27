@@ -57,12 +57,14 @@ body{overflow-x: hidden;}
 
 
 .conteudo {
-    
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #c0bebe;
     align-items: center;
+    padding-bottom: 2vw;
+
 }
 
 .conteudo p{
@@ -86,9 +88,6 @@ body{overflow-x: hidden;}
   
 
 }
-
-
-
 
 @media(max-width:990px){
     .cabecalho{
