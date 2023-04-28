@@ -150,6 +150,8 @@ body{overflow-x: hidden;}
         flex-wrap: nowrap;
         padding-bottom: 25vw;
         margin-bottom: 0%;
+        height: auto;
+        
     }
     .cabecalho a{
         padding: 5% 0;
@@ -169,15 +171,12 @@ body{overflow-x: hidden;}
     
     .cabecalho nav{
         display:flex;
-        justify-content:space-evenly;
+        justify-content:space-between;
         flex-direction: column;
         flex-wrap: wrap;
         width: 90vw;
         height: 45vh;
-        
-       
-       
-
+    
     }
     .conteudo p{
         display: flex;
@@ -200,7 +199,7 @@ body{overflow-x: hidden;}
         display: flex;
         flex-direction: column;
         width: auto;
-        height:45vh;
+        height: auto;
         flex-wrap: wrap;
         align-items: center;
         flex:1;
