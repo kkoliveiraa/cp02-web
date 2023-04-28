@@ -103,3 +103,20 @@ body{overflow-x: hidden;}
     }
 }
 
+@media(max-width:741px){
+    
+    .cabecalho nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90vw;
+        height: 45vh;
+
+    }
+    .conteudo p{
+        display: flex;
+        width: auto;
+        height:45vh;
+    }
+}   
